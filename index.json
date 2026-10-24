@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "title": {
+    "en": "My DSH Plugins",
+    "zh": "我的 DSH 插件"
+  },
+  "description": {
+    "en": "A tiny hand-made plugin market index, served from a GitHub repository.",
+    "zh": "一个放在 GitHub 仓库里的极简插件市场索引。"
+  },
+  "metadata": {
+    "categories": {
+      "examples": {
+        "title": {
+          "en": "Examples",
+          "zh": "示例"
+        }
+      }
+    },
+    "labels": {
+      "starter": {
+        "title": {
+          "en": "Starter",
+          "zh": "入门"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-hello",
+      "title": {
+        "en": "Hello Command",
+        "zh": "Hello 命令"
+      },
+      "description": {
+        "en": "Adds a /hello slash command to DSH. The smallest real bundle: one cordis row plus about thirty lines of JavaScript.",
+        "zh": "给 DSH 加一个 /hello 斜杠命令。最小的真实组合包：一行 cordis 配置加三十行左右的 JavaScript。"
+      },
+      "author": "Gardenia4231",
+      "homepage": "https://github.com/Gardenia4231/dsh-plugin-hello",
+      "repository": {
+        "url": "https://github.com/Gardenia4231/dsh-plugin-hello"
+      },
+      "metadata": {
+        "category": "examples",
+        "keywords": [
+          "hello",
+          "example",
+          "command"
+        ],
+        "labels": [
+          "starter"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1792852707,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Gardenia4231/dsh-plugin-hello",
+            "commit": "f96d0c506ea46bd315ef52a0ed4be01b528c544c"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -23,7 +23,7 @@
 在 DSH 侧边栏「插件」页选择安装，填入：
 
 ```text
-git+https://github.com/<你的用户名>/dsh-plugin-hello.git#<40 位 commit SHA>
+git+https://github.com/Gardenia4231/dsh-plugin-hello.git#f96d0c506ea46bd315ef52a0ed4be01b528c544c
 ```
 
 或让 Creator 模式的 agent 调用 `plugin_manager` 的 `install_bundle`。
@@ -34,7 +34,7 @@ git+https://github.com/<你的用户名>/dsh-plugin-hello.git#<40 位 commit SHA
 2. 打开「插件 → 发现 → 添加索引源」，填入本仓库 `index.json` 的 raw 链接：
 
 ```text
-https://raw.githubusercontent.com/<你的用户名>/dsh-plugin-hello/main/index.json
+https://raw.githubusercontent.com/Gardenia4231/dsh-plugin-hello/main/index.json
 ```
 
 3. 列表里会出现 **Hello Command**，点安装即可。
