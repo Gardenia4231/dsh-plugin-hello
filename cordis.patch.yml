@@ -1,0 +1,5 @@
+# Bundle patch: applied when this bundle is selected in a DSH profile.
+# The row name is this package's own name, so the loader imports lib/index.js.
+- insert:
+    - id: hello
+      name: 'dsh-plugin-hello'
